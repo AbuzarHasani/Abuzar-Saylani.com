@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: white;
+}
+header{
+    padding: 10px 0px;
+    background-color: inherit;
+    box-shadow: 0 2px 2px 0 black
+}
+nav{
+    display: flex;
+    width: 85%;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+nav .main_logo {
+    width: 250px;
+}
+  nav .main_logo img {
+    width: 100%;
+}
+nav .menu {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+nav .menu a {
+    text-decoration: none;
+    color: black;
+    margin-top: 7px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    justify-content: space-between;
+}
+nav .menu a:hover {
+    color: #8dc63f;
+}
+nav .btn1{
+    background-color: #0d6db7;
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin-top: -5px !important;
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 12px !important;
+}
+nav .btn2{
+    background-color: #8dc63f;
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin-top: -5px !important;
+    color: white !important;
+    text-transform: uppercase;
+    font-size: 12px !important;
+}
+main{
+    width: 85%;
+    margin: 40px auto;
+}
+.mainsec{
+    display: flex;
+}
+.mainheading{
+    width: 50%;
+}
+.mainheading .support{
+    width: 83%;
+}
+.mainheading div{
+    width: 70%;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.mainheading .para{
+    margin-top: 0px;
+}
+.mainheading div h1{
+    font-size: 40px;
+    font-weight: 550;
+    color: black;
+    line-height: 1.5em;
+    margin-top: 60px;
+}
+.mainheading div h1 span{
+    color: #8dc63f;
+}
+.mainheading div p{
+    color: black;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.mainheading div .btn{
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 15px 55px;
+    border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.main_img{
+    width: 50%;
+}
+.main_img img {
+    height: 520px;
+    width: 100%;
+}
+.donate{
+    display: flex;
+    background: #f0fcdb;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+.donate_heading{
+    width: 20%;
+}
+.donate_heading h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.donate_heading span{
+    color: #0d6db7;
+    font-weight: bold;
+}
+.donate_btn span:hover {
+    background: #424242;
+    color: white;
+}  
+.donate_btn{
+    width: 80%;
+}
+.donate_btn span{
+    background: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+}  
+.donate_btn button{
+    background: #8dc63f;
+    padding: 17px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.donate_btn button:hover{
+    opacity: 0.8;
+    color: white;
+}
+.plastine-sec{
+    margin-top: 20px;
+    width: 100%;
+    border: 2px;
+}
+.plastine-sec img {
+    border: 2px;
+    width: 100%;
+    height: 660px;
+}
+.icon_sec {
+    width: 100%;
+    margin-top: 20px;
+}
+.icon_sec h2{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+.icon{
+    display: flex;
+    width: 100%;
+}
+.icon div {
+    width: 16.6%;
+    background: #f0fcdb;
+    margin: 20px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .icon div span{
+    text-align: center;
+    margin-top: 50px;
+    margin-right:5px;
+}
+  .icon div img{
+    margin-top: 20px;
+}
+.helpsec{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.helpsec .ration_img {
+    background-image: url(./images/Daily\ Food.jpg);
+    background-size: cover;
+}
+.helpsec .course_img {
+    background-image: url(./images/Zakat.jpg);
+    background-size: cover;
+}
+.helpsec .winter_img {
+    background-image: url(./images/course.jpg);
+    background-size: cover;
+}
+  
+.helpsec div {
+    width: 32%;
+    min-height: 300px;
+    background-blend-mode: darken;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 10px 10px;
+}  
+.helpsec div h5{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 600;
+}
+.helpsec div button{
+    background-color: #8dc63f;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    color: white;
+    font-size: 18px;
+}
+.Projects_sec{
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+  }
+.project_img{
+    width: 45%;
+    height: 400px;
+}
+  .project_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px 0px 0px 0px;
+  }
+.project_img .top_green{
+    width: 22%;
+    height: 60%;
+    background-color: #8dc63f;
+    position: absolute;
+    border-radius: 50px 0px 0px 0px;
+}
+.project_img .top_green h3{
+    color: white;
+    text-align: center;
+    padding: 20px 40px;
+    line-height: 35px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: -25px;
+}
+.other_project{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.hepatitis,
+.it,
+.housing,
+.thar{
+    display: flex;
+}
+.hepatitis .icons,
+.it .icons,
+.housing .icons,
+.thar .icons{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+.other_project .icons img{
+    object-fit: contain;
+}
